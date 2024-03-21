@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      background-color: black;
+    }
+
+    .element2{
+      grid-column-start: 2;
+      grid-column-end: -1;
+    }
+
+    .element3{
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .element5{
+      border-bottom: 10px solid black;
+    }
+
+    .element4{
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .element6{
+      grid-row: span 2;
+    }
+
+    .red{
+      background-color: #E72F24;
+    }
+
+    .White{
+      background-color: #F0F1EC;
+    }
+
+    .blue{
+      background-color: #004592;
+    }
+
+    .yellow{
+      background-color: #F9D01E;
+    }
+
+    .black{
+      background-color: #232629;
+    }
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="gap">
+    <div class="container">
+      <div class="red"></div>
+      <div class="White element2"></div>
+      <div class="White element3"></div>
+      <div class="White element4"></div>
+      <div class="blue element5"></div>
+      <div class="White element6"></div>
+      <div class="White element9"></div>
+      <div class="yellow element7"></div>
+      <div class="black element8"></div>
+
+    </div>
+  </div>
+</body>
+
+</html>

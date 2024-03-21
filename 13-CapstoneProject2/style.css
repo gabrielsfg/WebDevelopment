@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0px;
+    color: white;
+}
+
+.body{
+    background-color: black;
+}
+
+.personal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 500px;
+}
+
+.name{
+    color: #E98A15;
+}
+
+.ocupation{
+    color: white;
+
+}
+
+.description{
+    color: grey;
+}
+
+.subtitle{
+    color: #E98A15;
+
+}
+
+.div-geral{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 15px 100px 15px 100px;
+}
+
+.text{
+    color: grey;
+}
