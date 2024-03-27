@@ -1,4 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
 html,
 body {
   height: 100%;
+}
+
+/* CREATE PAGE */
+.createH1{
+  text-align: center;
+}
+
+.createForm{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 100px 0px 100px;
+}
+
+.createTitle{
+  margin-bottom: 30px;
+  padding: 5px;
+  }
+
+.createText{
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.createDiv{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.createAuthor{
+  width: 100%;
+  padding: 5px;
+}
+
+.createEmail{
+  width: 100%;
+  padding: 5px;
+}
+
+/* create PAGE */
+.postH1{
+  text-align: center;
+}
+
+.postDiv{
+  margin: 15px 300px 15px 300px;
+  text-align: left;
+}
+
+.divAuthor{
+  display: flex;
+  flex-direction: row;
+}
+
+.postAuthor{
+  font-weight: bold;
+  padding-right: 8px;
+}
+
+.divEmail{
+  display: flex;
+  flex-direction: row;
+}
+
+.postEmail{
+  font-weight: bold;
+  padding-right: 8px;
 }

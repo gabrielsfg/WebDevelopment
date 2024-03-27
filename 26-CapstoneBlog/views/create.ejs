@@ -7,7 +7,17 @@
 </head>
 <body>
     <%- include("partials/header.ejs") %>
-    <h1><%= postTitle %></h1>
-    <button type="button" class="btn btn-danger btn-lg">Post</button>
+    <h1 class="createH1">Create a New Post!</h1>
+
+    <form class="createForm" action="/create" method="POST">
+        <input type="text" class="createTitle" name="postTitle" placeholder="Post Title" aria-label="Create a Post" required>
+        <textarea type="text" class="createText" placeholder="Write Your Post Here!" name="postText" required></textarea>
+        <div class="createDiv">
+            <input type="text" class="createAuthor" placeholder="Author's Name" name="postAuthor" required/>
+            <input type="email" class="createEmail" placeholder="Contact email" name="postEmail" required />
+        </div>
+        <input type="submit" class="btn btn-danger btn-lg" value="Post"></input>
+    </form>
+    
 </body>
 </html>

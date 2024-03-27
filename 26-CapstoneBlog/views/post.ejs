@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+</head>
+<body>
+    <%- include("partials/header.ejs") %>
+    <h1 class="postH1"><%= post.title %></h1>
+    <div class="postDiv">
+        <p class="postText"><%= post.text %></p>
+        <div class="divAuthor">
+            <p class="postAuthor">Author: </p>
+            <p><%= post.author %></p>
+        </div>
+        <div class="divEmail">
+            <p class="postEmail">Email:</p>
+            <p><%= post.email %></p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
